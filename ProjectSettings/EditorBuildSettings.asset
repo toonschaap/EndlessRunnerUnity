@@ -6,5 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/scenes/start.unity
+    guid: d4fc295301219c9488b7c7b51cb456ce
+  - enabled: 1
+    path: Assets/scenes/instructions.unity
+    guid: 26228c523a21ebc42ad776589bbcbb59
+  - enabled: 1
+    path: Assets/scenes/aliens.unity
+    guid: e79d3bb7469ac1b4bb164a29d0de703d
+  - enabled: 1
+    path: Assets/scenes/upperwall.unity
+    guid: dcb3c0d41df96c74799fdffd83cb5fd9
+  - enabled: 1
+    path: Assets/scenes/wall.unity
+    guid: 722a48c5ae77c8245906c5346745efe0
+  - enabled: 1
     path: Assets/scenes/level1.unity
     guid: 063d08d092e87b648af20609a8f0db47
+  - enabled: 1
+    path: Assets/scenes/gameover.unity
+    guid: caa397cfe27553847a4a98247cfb898d

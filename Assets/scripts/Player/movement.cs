@@ -14,7 +14,7 @@ public class movement : MonoBehaviour {
 
     private void Start(){
 		rb = GetComponent<Rigidbody>();
-		jump = new Vector3(0.2f, 1.8f, 0.0f);
+		jump = new Vector3(0f, 2f, 0.0f);
 	}
 
     private void OnCollisionStay()
