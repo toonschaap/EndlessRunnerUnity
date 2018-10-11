@@ -26,3 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/gameover.unity
     guid: caa397cfe27553847a4a98247cfb898d
+  - enabled: 1
+    path: Assets/scenes/Slow.unity
+    guid: e56d72568fc478c4d876b147447c2da2
