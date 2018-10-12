@@ -35,6 +35,9 @@ public class animations : MonoBehaviour {
 		else if (Input.GetKey ("s")) {
 			anim.Play ("slide");
 		}
+		else if (Input.GetKey ("d")) {
+			anim.Play ("attack");
+		}
 		
 		else {
 			anim.Play ("run");

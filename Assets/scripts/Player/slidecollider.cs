@@ -5,6 +5,7 @@ using UnityEngine;
 public class slidecollider : MonoBehaviour {
 	public Collider box;
 	public Collider slide;
+	public Collider attack;
 	
 	
 	// Update is called once per frame
@@ -13,6 +14,11 @@ public class slidecollider : MonoBehaviour {
          {
  		box.enabled = false;
 		 slide.enabled = true;
+		 }
+		 else if(Input.GetKeyDown("d")){
+			 box.enabled = false;
+		 attack.enabled = true;
+		 }
 	}
 }
-}
+
